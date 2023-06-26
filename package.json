@@ -1,0 +1,23 @@
+{
+  "name": "js_observable_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yukoga/js_observable_list.git",
+  "author": "yukoga <yukoga@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf ./public/js/",
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "cleanwatch": "run-s clean watch",
+    "serve": "sirv public --port 8010",
+    "build": "run-s clean tsc serve",
+    "dev": "run-p cleanwatch serve"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "sirv-cli": "^2.0.2",
+    "typescript": "^5.1.3",
+    "yarn-run-all": "^3.1.1"
+  }
+}
