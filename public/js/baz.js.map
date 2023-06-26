@@ -1,0 +1,1 @@
+{"version":3,"file":"baz.js","sourceRoot":"","sources":["../../src/tsc/baz.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,MAAM,CAAC,CAAuB;IAC1C,MAAM,GAAG,GAAG,QAAQ,CAAC,aAAa,CAAC,GAAG,CAAC,CAAC;IACxC,GAAG,CAAC,WAAW,GAAG,yBAAyB,CAAC;IAE5C,CAAC,EAAE,WAAW,CAAC,GAAG,CAAC,CAAC;AACxB,CAAC"}
