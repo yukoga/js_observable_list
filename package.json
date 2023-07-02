@@ -2,13 +2,20 @@
   "name": "js_observable_list",
   "private": true,
   "version": "0.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "rimraf dist/*"
   },
   "devDependencies": {
+    "@types/node": "^20.3.2",
+    "rimraf": "^5.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }
